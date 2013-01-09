@@ -15,6 +15,7 @@ Public Class WebForm1
     End Structure
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Response.Write(ConfigurationManager.ConnectionStrings("SQLDB").ConnectionString)
         Dim TrainCount As Integer = 0
         Const strURL As String = "http://waynet.artc.com.au/ctlsexternal/AllMapDisplay.asp"
         Dim webGet = New HtmlWeb()
