@@ -1,5 +1,7 @@
 ﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Site.master.vb" Inherits="WebApplication1.Site" %>
 
+<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head runat="server">
@@ -35,6 +37,11 @@
         </div>
     </div>
     <div class="footer">
+        
+        <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+</telerik:RadScriptManager>
+        <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
+        </telerik:RadStyleSheetManager>
         
     </div>
     </form>
