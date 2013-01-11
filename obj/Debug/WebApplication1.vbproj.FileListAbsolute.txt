@@ -10,3 +10,4 @@ c:\users\misaunders\documents\visual studio 2010\Projects\WebApplication1\WebApp
 c:\users\misaunders\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
 c:\users\misaunders\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\HtmlAgilityPack.pdb
 c:\users\misaunders\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\HtmlAgilityPack.xml
+c:\users\misaunders\documents\visual studio 2010\Projects\WebApplication1\WebApplication1\bin\Telerik.Web.UI.xml

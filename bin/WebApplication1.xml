@@ -22,33 +22,9 @@ HeadContent control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:WebApplication1.Site.MasterPageScriptManager">
+</member><member name="F:WebApplication1.Site.NavigationMenu">
 	<summary>
-MasterPageScriptManager control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.Site.HeadLoginView">
-	<summary>
-HeadLoginView control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.Site.HeadHomeLink">
-	<summary>
-HeadHomeLink control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.Site.HeadAboutLink">
-	<summary>
-HeadAboutLink control.
+NavigationMenu control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -57,6 +33,22 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:WebApplication1.Site.MainContent">
 	<summary>
 MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1._Default.RadGrid1">
+	<summary>
+RadGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1._Default.TrainList">
+	<summary>
+TrainList control.
 </summary>
 	<remarks>
 Auto-generated field.
