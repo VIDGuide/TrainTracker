@@ -5,8 +5,15 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head runat="server">
-    <title></title>
+    <title>TrainTracker</title>
     <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+    function openRadWindow() {
+        var oWnd = radopen("scrape.aspx", "RadWindow1"); //Pass parameter using URL   
+        oWnd.center();
+        return false;
+    }   
+</script>  
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -21,13 +28,7 @@
             <div class="loginDisplay">
             </div>
             <div class="clear hideSkiplink">
-                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
-                    <Items>
-                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
-                        <asp:MenuItem NavigateUrl="~/Scrape.aspx" Text="Scrape Now" Target="_blank" 
-                            Value="Scrape"/>
-                    </Items>
-                </asp:Menu>
+                <asp:LinkButton ID="LinkButton1" OnClientClick="return openRadWindow();" runat="server">Scrape</asp:LinkButton>
             </div>
         </div>
         <div class="main">
@@ -42,7 +43,8 @@
 </telerik:RadScriptManager>
         <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
         </telerik:RadStyleSheetManager>
-        
+        <telerik:radwindowmanager id="RadWindowManager1" Width="400" Height="800" Modal="true" runat="server" DestroyOnClose="true">      
+        </telerik:radwindowmanager> 
     </div>
     </form>
 </body>

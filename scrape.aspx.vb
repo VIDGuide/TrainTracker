@@ -15,21 +15,6 @@ Public Class WebForm1
     End Structure
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
-        'SELECT t1.[TrainNumber], MAX(t1.GPSDateTime) AS MaxGPS,
-        '(SELECT TOP(1) LeadingLoco FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LeadingLoco,
-        '(SELECT TOP(1) lineKMs FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS lineKMs,
-        '(SELECT TOP(1) LineName FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LineName,
-        '(SELECT TOP(1) LineNUmber FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LineNumber,
-        '(SELECT TOP(1) longitude FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS longitude,
-        '(SELECT TOP(1) latitude FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS latitude
-        '  FROM [TrainGPSData] AS t1
-        'GROUP BY t1.[TrainNumber]
-        'HAVING(MAX(t1.GPSDateTime) > DateAdd(Hour, -1, GETDATE()))
-        'ORDER BY t1.TrainNumber, MAX(t1.GPSDateTime) desc
-
-
-
         Dim TrainCount As Integer = 0
         Const strURL As String = "http://waynet.artc.com.au/ctlsexternal/AllMapDisplay.asp"
         Dim webGet = New HtmlWeb()
@@ -82,6 +67,7 @@ Public Class WebForm1
                     End Using
                 End Using
                 Response.Write("Scraped: " + Train.TrainNumber + " on " + Train.LineName + " (" + Train.LineNumber.ToString + ") at " + Train.Longitude.ToString + "," + Train.Latitude.ToString + "<BR>")
+                Response.Flush()
             Next
         End If
         Response.Write(TrainCount.ToString)

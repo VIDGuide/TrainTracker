@@ -22,9 +22,9 @@ HeadContent control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:WebApplication1.Site.NavigationMenu">
+</member><member name="F:WebApplication1.Site.LinkButton1">
 	<summary>
-NavigationMenu control.
+LinkButton1 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -49,6 +49,14 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:WebApplication1.Site.RadStyleSheetManager1">
 	<summary>
 RadStyleSheetManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Site.RadWindowManager1">
+	<summary>
+RadWindowManager1 control.
 </summary>
 	<remarks>
 Auto-generated field.
