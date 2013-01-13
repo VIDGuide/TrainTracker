@@ -6,7 +6,23 @@ WebApplication1
 </name>
 </assembly>
 <members>
-<member name="F:WebApplication1.Site.HeadContent">
+<member name="F:WebApplication1._Default.RadGrid1">
+	<summary>
+RadGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1._Default.TrainList">
+	<summary>
+TrainList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.Site.HeadContent">
 	<summary>
 HeadContent control.
 </summary>
@@ -54,17 +70,9 @@ RadWindowManager1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:WebApplication1._Default.RadGrid1">
+</member><member name="F:WebApplication1.ChangePassword.ChangeUserPassword">
 	<summary>
-RadGrid1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1._Default.TrainList">
-	<summary>
-TrainList control.
+ChangeUserPassword control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -81,14 +89,6 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:WebApplication1.Login.LoginUser">
 	<summary>
 LoginUser control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.WebForm1.form1">
-	<summary>
-form1 control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -127,9 +127,9 @@ To modify move field declaration from designer file to code-behind file.
  Module used to define the properties that are available in the My Namespace for Web projects.
  </summary>
 	<remarks></remarks>
-</member><member name="F:WebApplication1.ChangePassword.ChangeUserPassword">
+</member><member name="F:WebApplication1.WebForm1.form1">
 	<summary>
-ChangeUserPassword control.
+form1 control.
 </summary>
 	<remarks>
 Auto-generated field.
