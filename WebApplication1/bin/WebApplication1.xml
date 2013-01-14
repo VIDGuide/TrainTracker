@@ -6,55 +6,15 @@ WebApplication1
 </name>
 </assembly>
 <members>
-<member name="F:WebApplication1._Default.RadGrid1">
+<member name="F:WebApplication1.WebForm2.form1">
 	<summary>
-RadGrid1 control.
+form1 control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:WebApplication1._Default.TrainList">
-	<summary>
-TrainList control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.Site.HeadContent">
-	<summary>
-HeadContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.Site.LinkButton1">
-	<summary>
-LinkButton1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.Site.MainContent">
-	<summary>
-MainContent control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.Site.RadScriptManager1">
-	<summary>
-RadScriptManager1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.Site.RadStyleSheetManager1">
+</member><member name="F:WebApplication1.WebForm2.RadStyleSheetManager1">
 	<summary>
 RadStyleSheetManager1 control.
 </summary>
@@ -62,7 +22,15 @@ RadStyleSheetManager1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:WebApplication1.Site.RadWindowManager1">
+</member><member name="F:WebApplication1.WebForm2.RadScriptManager1">
+	<summary>
+RadScriptManager1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.WebForm2.RadWindowManager1">
 	<summary>
 RadWindowManager1 control.
 </summary>
@@ -70,25 +38,33 @@ RadWindowManager1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:WebApplication1.ChangePassword.ChangeUserPassword">
+</member><member name="F:WebApplication1.WebForm2.RadFormDecorator1">
 	<summary>
-ChangeUserPassword control.
+RadFormDecorator1 control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:WebApplication1.Login.RegisterHyperLink">
+</member><member name="F:WebApplication1.WebForm2.RadButton1">
 	<summary>
-RegisterHyperLink control.
+RadButton1 control.
 </summary>
 	<remarks>
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
-</member><member name="F:WebApplication1.Login.LoginUser">
+</member><member name="F:WebApplication1.WebForm2.RadGrid1">
 	<summary>
-LoginUser control.
+RadGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.WebForm2.TrainList">
+	<summary>
+TrainList control.
 </summary>
 	<remarks>
 Auto-generated field.
@@ -130,22 +106,6 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:WebApplication1.WebForm1.form1">
 	<summary>
 form1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.Register.RegisterUser">
-	<summary>
-RegisterUser control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.Register.RegisterUserWizardStep">
-	<summary>
-RegisterUserWizardStep control.
 </summary>
 	<remarks>
 Auto-generated field.

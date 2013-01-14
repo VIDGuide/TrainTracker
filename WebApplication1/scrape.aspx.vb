@@ -1,4 +1,7 @@
 ﻿Imports HtmlAgilityPack
+Imports System.Threading
+Imports System.Globalization
+
 
 Public Class WebForm1
     Inherits System.Web.UI.Page
@@ -14,7 +17,12 @@ Public Class WebForm1
         Public GPSDateTime As DateTime
     End Structure
 
+
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        Thread.CurrentThread.CurrentCulture = New CultureInfo("en-AU")
+        Thread.CurrentThread.CurrentUICulture = New CultureInfo("en-AU")
+
         Dim TrainCount As Integer = 0
         Const strURL As String = "http://waynet.artc.com.au/ctlsexternal/AllMapDisplay.asp"
         Dim webGet = New HtmlWeb()
