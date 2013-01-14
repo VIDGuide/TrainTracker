@@ -96,11 +96,20 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\drag-dark.png" />
+    <Content Include="Images\new.png" />
+    <Content Include="Images\settings.png" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\jquery.1.7.1.min.js" />
+    <Content Include="Scripts\jquery.layout.js" />
+    <Content Include="Scripts\responsive.js" />
+    <Content Include="Styles\core.css" />
+    <Content Include="Styles\glyphicons-halflings-white.png" />
+    <Content Include="Styles\glyphicons-halflings.png" />
     <Content Include="Styles\Site.css" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
-    <Content Include="Scripts\jquery-1.4.1.js" />
-    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="Images\train.png" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -190,7 +199,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties UseAjaxifiedTemplates="False" UseJQuerySupport="False" />
+      <UserProperties UseJQuerySupport="False" UseAjaxifiedTemplates="False" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -14,6 +14,30 @@ form1 control.
 Auto-generated field.
 To modify move field declaration from designer file to code-behind file.
 </remarks>
+</member><member name="F:WebApplication1.WebForm2.TrainCounter">
+	<summary>
+TrainCounter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.WebForm2.RefreshTime">
+	<summary>
+RefreshTime control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:WebApplication1.WebForm2.RadGrid1">
+	<summary>
+RadGrid1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
 </member><member name="F:WebApplication1.WebForm2.RadStyleSheetManager1">
 	<summary>
 RadStyleSheetManager1 control.
@@ -41,22 +65,6 @@ To modify move field declaration from designer file to code-behind file.
 </member><member name="F:WebApplication1.WebForm2.RadFormDecorator1">
 	<summary>
 RadFormDecorator1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.WebForm2.RadButton1">
-	<summary>
-RadButton1 control.
-</summary>
-	<remarks>
-Auto-generated field.
-To modify move field declaration from designer file to code-behind file.
-</remarks>
-</member><member name="F:WebApplication1.WebForm2.RadGrid1">
-	<summary>
-RadGrid1 control.
 </summary>
 	<remarks>
 Auto-generated field.

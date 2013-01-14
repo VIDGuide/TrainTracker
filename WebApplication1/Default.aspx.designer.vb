@@ -23,6 +23,33 @@ Partial Public Class WebForm2
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''TrainCounter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TrainCounter As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''RefreshTime control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RefreshTime As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''RadGrid1 control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents RadGrid1 As Global.Telerik.Web.UI.RadGrid
+
+    '''<summary>
     '''RadStyleSheetManager1 control.
     '''</summary>
     '''<remarks>
@@ -57,24 +84,6 @@ Partial Public Class WebForm2
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents RadFormDecorator1 As Global.Telerik.Web.UI.RadFormDecorator
-
-    '''<summary>
-    '''RadButton1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents RadButton1 As Global.Telerik.Web.UI.RadButton
-
-    '''<summary>
-    '''RadGrid1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents RadGrid1 As Global.Telerik.Web.UI.RadGrid
 
     '''<summary>
     '''TrainList control.
