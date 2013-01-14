@@ -47,7 +47,7 @@
         
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="TrainList" 
     GridLines="None" CellSpacing="0" Skin="Office2010Black" 
-            AutoGenerateColumns="False">
+            AutoGenerateColumns="False" AllowPaging="True" AllowSorting="True">
     <MasterTableView datasourceid="TrainList">
         <CommandItemSettings ExportToPdfText="Export to Pdf">
         </CommandItemSettings>
@@ -96,6 +96,8 @@
 <EditColumn FilterControlAltText="Filter EditCommandColumn column"></EditColumn>
 </EditFormSettings>
     </MasterTableView>
+
+    <PagerStyle Mode="NextPrev" />
 
 <FilterMenu EnableImageSprites="False"></FilterMenu>
 
