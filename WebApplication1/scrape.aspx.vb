@@ -34,7 +34,7 @@ Public Class WebForm1
                 HTMLStr = HTMLStr.Replace("</font></td></tr>", "")
                 HTMLStr = HTMLStr.Replace("<tr><td bgcolor='rgb(255,200,200)'><font style='color:rgb(0,0,0); font-size:10pt; font-weight:400;font-family:Arial'>", "")
                 HTMLStr = HTMLStr.Replace("<tr><td bgcolor='rgb(255,200,200)'><font style='color:rgb(0,0,0); font-size:10pt; font-weight:400;font-family:Arial'>", "")
-                Dim TrainData() As String = HTMLStr.Split("<")
+                Dim TrainData() As String = HTMLStr.Split(CChar("<"))
                 Dim Train As New TrainInformation
                 Train.TrainNumber = CleanString(TrainData(0))
                 Train.LeadingLoco = CleanString(TrainData(1))
