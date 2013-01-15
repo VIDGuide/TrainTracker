@@ -7,14 +7,53 @@
     <link rel="stylesheet" href="Styles/core.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="Styles/site.css" type="text/css" media="all"/>
     
-    
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmgE5BAlybs-U19w0gueveSSpxJSKI2U0&sensor=false"></script>
     <script type="text/javascript" src="Scripts/jquery.1.7.1.min.js"></script>
     <script type="text/javascript" src="Scripts/bootstrap.js"></script>
+
     <script type="text/javascript">
-		function openRadWindow(button, args) {
-			var oWnd = window.radopen("scrape.aspx", "RadWindow1"); //Pass parameter using URL   
-			oWnd.center();
-		}   
+function openRadWindow(button, args) {
+	var oWnd = window.radopen("scrape.aspx", "RadWindow1"); //Pass parameter using URL   
+	oWnd.center();
+}
+
+var map;
+
+function initialize() {
+    var mapOptions = {
+        center: new google.maps.LatLng(-34.397, 150.644),
+        zoom: 8,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+
+    map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+
+    for (var i = 0; i < locationList.length; i++) {
+        var args = locationList[i].split(",");
+        var location = new google.maps.LatLng(args[0], args[1])
+        var marker = new google.maps.Marker({
+            position: location,
+            map: map
+        });
+        var j = i + 1;
+        marker.setTitle(message[i].replace(/(<([^>]+)>)/ig,""));
+        attachSecretMessage(marker, i);
+    }
+}
+
+function attachSecretMessage(marker, number) {
+var infowindow = new google.maps.InfoWindow(
+{ content: message[number],
+size: new google.maps.Size(50, 50)
+});
+google.maps.event.addListener(marker, 'click', function() {
+infowindow.open(map, marker);
+});
+}
+google.maps.event.addDomListener(window, "load", initialize);
+
+
+
 </script>
     <style type="text/css">
         .style1
@@ -56,7 +95,7 @@
     </td></tr>
     </table>
     </td><td>
-    MAP HERE
+    <div id="map_canvas" style="width:100%; height:100%"></div>
     </td></tr>
 	<tr style="height:300px;"><td colspan="2">
 <telerik:RadGrid ID="RadGrid1" runat="server" DataSourceID="TrainList" 
