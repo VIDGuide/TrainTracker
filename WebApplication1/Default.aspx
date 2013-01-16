@@ -17,6 +17,11 @@ function openRadWindow(button, args) {
 	oWnd.center();
 }
 
+function openCreditsWindow(button, args) {
+    var oWnd = window.radopen("Credits.aspx", "RadWindow2"); //Pass parameter using URL   
+    oWnd.center();
+}
+
 var map;
 var TrackLayer;
 var Collieries;
@@ -63,7 +68,7 @@ function initialize() {
     TrackLayer.setMap(map);
 
     Collieries = new google.maps.KmlLayer('http://traintracker.apphb.com/Resources/Collieries.kmz');
-    Collieries.setMap(map);
+    //Collieries.setMap(map);
 
 }
 
@@ -101,7 +106,20 @@ google.maps.event.addDomListener(window, "load", initialize);
     <table width="200px" style="height:100%;" class="ui-layout-west"">
     <tr><td height="100%" valign="top"><B>Map Options</B>:
     <label><asp:CheckBox ID="ShowTrack" runat="server" Checked="True" onclick="ToggleTrack(this.checked);" />&nbsp;Show NSW Tracks</label>
-    <label><asp:CheckBox ID="ShowCollieries" runat="server" Checked="True" onclick="ToggleCollieries(this.checked);" />&nbsp;Show Collieries</label><br /><br />
+    <label><asp:CheckBox ID="ShowCollieries" runat="server" Checked="False" onclick="ToggleCollieries(this.checked);" />&nbsp;Show Collieries</label><br /><br />
+    Show Trains From:
+    <telerik:RadComboBox ID="TimeFilter" Runat="server" Skin="Office2010Black" 
+            AutoPostBack="True">
+        <Items>
+            <telerik:RadComboBoxItem runat="server" Selected="True" Text="Last 1 Hour" 
+                Value="-1" />
+            <telerik:RadComboBoxItem runat="server" Text="Last 2 Hours" Value="-2" />
+            <telerik:RadComboBoxItem runat="server" Text="Last 4 Hours" Value="-4" />
+            <telerik:RadComboBoxItem runat="server" Text="Last 6 Hours" Value="-6" />
+            <telerik:RadComboBoxItem runat="server" Text="Last 12 Hours" Value="-12" />
+            <telerik:RadComboBoxItem runat="server" Text="Last 24 Hours" Value="-24" />
+        </Items>
+        </telerik:RadComboBox>
     </td></tr>
     <tr><td>
     <div class="sidebarFooterStats">
@@ -117,7 +135,7 @@ google.maps.event.addDomListener(window, "load", initialize);
 	<div class="sidebarFooter">
 		<button id="newb">New</button>
 		<button id="settingsb">Settings</button>
-        <font size=-3>Credits</font>
+        <font size="-3"><a onclick="openCreditsWindow();">Credits</a></font>
 	</div>
     </td></tr>
     </table>
@@ -184,6 +202,7 @@ google.maps.event.addDomListener(window, "load", initialize);
 <HeaderContextMenu CssClass="GridContextMenu GridContextMenu_Default"></HeaderContextMenu>
 
 		</telerik:RadGrid>    
+	    
 	</td></tr>
 	</table>
 <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server">
@@ -209,7 +228,12 @@ google.maps.event.addDomListener(window, "load", initialize);
 		Skin="Office2010Black" />
 <asp:SqlDataSource ID="TrainList" runat="server" 
 	ConnectionString="<%$ ConnectionStrings:SQLDB %>" 
-	SelectCommand="SELECT t1.[TrainNumber], MAX(t1.GPSDateTime) AS MaxGPS, (SELECT TOP(1) LeadingLoco FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LeadingLoco, (SELECT TOP(1) lineKMs FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS lineKMs, (SELECT TOP(1) LineName FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LineName, (SELECT TOP(1) LineNUmber FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LineNumber, (SELECT TOP(1) longitude FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS longitude, (SELECT TOP(1) latitude FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS latitude FROM [TrainGPSData] AS t1 GROUP BY t1.[TrainNumber] HAVING(MAX(t1.GPSDateTime) > DateAdd(Hour, -1, GETDATE())) ORDER BY t1.TrainNumber, MAX(t1.GPSDateTime) desc">
+	
+        SelectCommand="SELECT t1.[TrainNumber], MAX(t1.GPSDateTime) AS MaxGPS, (SELECT TOP(1) LeadingLoco FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LeadingLoco, (SELECT TOP(1) lineKMs FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS lineKMs, (SELECT TOP(1) LineName FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LineName, (SELECT TOP(1) LineNUmber FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LineNumber, (SELECT TOP(1) longitude FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS longitude, (SELECT TOP(1) latitude FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS latitude FROM [TrainGPSData] AS t1 GROUP BY t1.[TrainNumber] HAVING(MAX(t1.GPSDateTime) &gt; DateAdd(Hour, @TimeParameter, DATEADD(Hour,11,GETDATE()))) ORDER BY t1.TrainNumber, MAX(t1.GPSDateTime) desc">
+    <SelectParameters>
+        <asp:ControlParameter ControlID="TimeFilter" DbType="Int16" DefaultValue="-1" 
+            Name="TimeParameter" PropertyName="SelectedValue" />
+    </SelectParameters>
 	</asp:SqlDataSource>
 	<telerik:RadAjaxManager runat="server">
         <AjaxSettings>

@@ -10,6 +10,7 @@ Public Class WebForm2
     'todo: Filter radgrid
     'todo: click Radgrid row center/zoom map
     'todo: Auto Scrape
+    'todo: custom icon
     'todo: Direction Indicator
     'todo: decode information from ARTC rules
     'todo: Add QLD Tracks
@@ -28,7 +29,7 @@ Public Class WebForm2
             Conn.Open()
             Using Command As SqlClient.SqlCommand = Conn.CreateCommand()
                 With Command
-                    Dim SQL As String = "SELECT COUNT(distinct [TrainNumber]) as CNT FROM [TrainGPSData] WHERE GPSDateTime > DATEADD(Hour, -1, GETDATE())"
+                    Dim SQL As String = "SELECT COUNT(distinct [TrainNumber]) as CNT FROM [TrainGPSData] WHERE GPSDateTime > DATEADD(Hour, " + TimeFilter.SelectedValue.ToString + ", DATEADD(Hour,11,GETDATE()))"
                     .CommandText = SQL
                     Dim Reader As SqlClient.SqlDataReader = .ExecuteReader
                     If Not Reader.HasRows Then
@@ -41,7 +42,7 @@ Public Class WebForm2
                 End With
 
                 With Command
-                    Dim SQL As String = "SELECT MAX(GPSDateTime) AS DT FROM [TrainGPSData] WHERE GPSDateTime > DATEADD(Hour, -1, GETDATE())"
+                    Dim SQL As String = "SELECT MAX(GPSDateTime) AS DT FROM [TrainGPSData] WHERE GPSDateTime > DATEADD(Hour, " + TimeFilter.SelectedValue.ToString + ", DATEADD(Hour,11,GETDATE()))"
                     .CommandText = SQL
                     Dim Reader As SqlClient.SqlDataReader = .ExecuteReader
                     If Not Reader.HasRows Then
@@ -58,7 +59,7 @@ Public Class WebForm2
                 End With
 
                 With Command
-                    Dim SQL As String = "SELECT t1.[TrainNumber], MAX(t1.GPSDateTime) AS MaxGPS, (SELECT TOP(1) LeadingLoco FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LeadingLoco, (SELECT TOP(1) lineKMs FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS lineKMs, (SELECT TOP(1) LineName FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LineName, (SELECT TOP(1) LineNUmber FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LineNumber, (SELECT TOP(1) longitude FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS longitude, (SELECT TOP(1) latitude FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS latitude FROM [TrainGPSData] AS t1 GROUP BY t1.[TrainNumber] HAVING(MAX(t1.GPSDateTime) > DateAdd(Hour, -1, GETDATE())) ORDER BY t1.TrainNumber, MAX(t1.GPSDateTime) desc"
+                    Dim SQL As String = "SELECT t1.[TrainNumber], MAX(t1.GPSDateTime) AS MaxGPS, (SELECT TOP(1) LeadingLoco FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LeadingLoco, (SELECT TOP(1) lineKMs FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS lineKMs, (SELECT TOP(1) LineName FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LineName, (SELECT TOP(1) LineNUmber FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS LineNumber, (SELECT TOP(1) longitude FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS longitude, (SELECT TOP(1) latitude FROM [TrainGPSData] AS t2 WHERE t2.TrainNumber = t1.TrainNumber AND t2.GPSDateTime =  MAX(t1.GPSDateTime)) AS latitude FROM [TrainGPSData] AS t1 GROUP BY t1.[TrainNumber] HAVING(MAX(t1.GPSDateTime) > DateAdd(Hour, " + TimeFilter.SelectedValue.ToString + ", DATEADD(Hour,11,GETDATE()))) ORDER BY t1.TrainNumber, MAX(t1.GPSDateTime) desc"
                     .CommandText = SQL
                     Dim Reader As SqlClient.SqlDataReader = .ExecuteReader
                     While Reader.Read()

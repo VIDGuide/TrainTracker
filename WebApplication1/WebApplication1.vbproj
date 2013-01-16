@@ -120,7 +120,7 @@
     </Content>
     <Content Include="scrape.aspx" />
     <Content Include="Default.aspx" />
-    <Content Include="WebForm3.aspx" />
+    <Content Include="Credits.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.vb">
@@ -159,11 +159,11 @@
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="WebForm3.aspx.designer.vb">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="Credits.aspx.designer.vb">
+      <DependentUpon>Credits.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WebForm3.aspx.vb">
-      <DependentUpon>WebForm3.aspx</DependentUpon>
+    <Compile Include="Credits.aspx.vb">
+      <DependentUpon>Credits.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

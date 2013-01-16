@@ -41,6 +41,15 @@ Partial Public Class WebForm2
     Protected WithEvents ShowCollieries As Global.System.Web.UI.WebControls.CheckBox
 
     '''<summary>
+    '''TimeFilter control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents TimeFilter As Global.Telerik.Web.UI.RadComboBox
+
+    '''<summary>
     '''TrainCounter control.
     '''</summary>
     '''<remarks>
