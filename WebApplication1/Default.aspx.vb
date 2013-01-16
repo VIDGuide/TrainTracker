@@ -47,7 +47,11 @@ Public Class WebForm2
                         RefreshTime.Text = "-"
                     Else
                         Reader.Read()
-                        RefreshTime.Text = CDate(Reader("DT")).ToShortTimeString
+                        If IsDBNull(Reader("DT")) Then
+                            RefreshTime.Text = "??"
+                        Else
+                            RefreshTime.Text = CDate(Reader("DT")).ToShortTimeString
+                        End If
                     End If
                     Reader.Close()
                 End With
