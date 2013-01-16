@@ -41,7 +41,7 @@ function initialize() {
         attachSecretMessage(marker, i);
     }
 
-    var TrackLayer = new google.maps.KmlLayer('http://www.damstra.com.au/NSW.kmz');
+    var TrackLayer = new google.maps.KmlLayer('http://traintracker.apphb.com/Resources/NSW.kmz');
     TrackLayer.setMap(map);
 
 }
