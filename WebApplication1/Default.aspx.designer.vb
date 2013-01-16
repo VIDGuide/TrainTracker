@@ -23,6 +23,24 @@ Partial Public Class WebForm2
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
+    '''ShowTrack control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ShowTrack As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
+    '''ShowCollieries control.
+    '''</summary>
+    '''<remarks>
+    '''Auto-generated field.
+    '''To modify move field declaration from designer file to code-behind file.
+    '''</remarks>
+    Protected WithEvents ShowCollieries As Global.System.Web.UI.WebControls.CheckBox
+
+    '''<summary>
     '''TrainCounter control.
     '''</summary>
     '''<remarks>

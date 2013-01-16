@@ -18,6 +18,24 @@ function openRadWindow(button, args) {
 }
 
 var map;
+var TrackLayer;
+var Collieries;
+
+function ToggleTrack(obj) {
+    if (obj == true) {
+        TrackLayer.setMap(map);
+    } else {
+        TrackLayer.setMap(null);
+    }
+}
+
+function ToggleCollieries(obj) {
+    if (obj == true) {
+        Collieries.setMap(map);
+    } else {
+        Collieries.setMap(null);
+    }
+}
 
 function initialize() {
     var mapOptions = {
@@ -41,8 +59,11 @@ function initialize() {
         attachSecretMessage(marker, i);
     }
 
-    var TrackLayer = new google.maps.KmlLayer('http://traintracker.apphb.com/Resources/NSW.kmz');
+    TrackLayer = new google.maps.KmlLayer('http://traintracker.apphb.com/Resources/NSW.kmz');
     TrackLayer.setMap(map);
+
+    Collieries = new google.maps.KmlLayer('http://traintracker.apphb.com/Resources/Collieries.kmz');
+    Collieries.setMap(map);
 
 }
 
@@ -79,8 +100,8 @@ google.maps.event.addDomListener(window, "load", initialize);
 	<tr><td class="style1" valign="top">
     <table width="200px" style="height:100%;" class="ui-layout-west"">
     <tr><td height="100%" valign="top">
-    Menu Items Here<br />
-    More Items
+    <label><asp:CheckBox ID="ShowTrack" runat="server" Checked="True" onclick="ToggleTrack(this.checked);" />&nbsp;Show NSW Tracks</label><br />
+    <label><asp:CheckBox ID="ShowCollieries" runat="server" Checked="True" onclick="ToggleCollieries(this.checked);" />&nbsp;Show Collieries</label>
     </td></tr>
     <tr><td>
     <div class="sidebarFooterStats">
