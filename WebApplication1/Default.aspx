@@ -41,7 +41,7 @@ function initialize() {
         attachSecretMessage(marker, i);
     }
 
-    var TrackLayer = new google.maps.KmlLayer('http://61.8.8.178/NSW.kmz');
+    var TrackLayer = new google.maps.KmlLayer('http://www.damstra.com.au/NSW.kmz');
     TrackLayer.setMap(map);
 
 }
