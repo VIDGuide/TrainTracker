@@ -41,7 +41,7 @@ function initialize() {
         attachSecretMessage(marker, i);
     }
 
-    var TrackLayer = new google.maps.KmlLayer('http://traintracker.apphb.com/Resources/NSW.kmz');
+    var TrackLayer = new google.maps.KmlLayer('http://traintracker.apphb.com/Resources/NSW.kml');
     TrackLayer.setMap(map);
 
 }
