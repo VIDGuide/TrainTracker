@@ -33,22 +33,27 @@ function initialize() {
         var location = new google.maps.LatLng(args[0], args[1])
         var marker = new google.maps.Marker({
             position: location,
-            map: map
+            map: map,
+            title: message[i].replace(/(<([^>]+)>)/ig,"")
         });
         var j = i + 1;
-        marker.setTitle(message[i].replace(/(<([^>]+)>)/ig,""));
+        //marker.setTitle(message[i].replace(/(<([^>]+)>)/ig,""));
         attachSecretMessage(marker, i);
     }
+
+    var TrackLayer = new google.maps.KmlLayer('http://traintracker.apphb.com/Resources/NSW.kmz');
+    TrackLayer.setMap(map);
+
 }
 
 function attachSecretMessage(marker, number) {
-var infowindow = new google.maps.InfoWindow(
-{ content: message[number],
-size: new google.maps.Size(50, 50)
-});
-google.maps.event.addListener(marker, 'click', function() {
-infowindow.open(map, marker);
-});
+    var infowindow = new google.maps.InfoWindow(
+        { content: BodyMsg[number],
+            size: new google.maps.Size(50, 50)
+        });
+        google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map, marker);
+    });
 }
 google.maps.event.addDomListener(window, "load", initialize);
 

@@ -4,7 +4,16 @@ Imports System.Globalization
 Public Class WebForm2
 
     Inherits System.Web.UI.Page
-
+    'todo: Ajax refresh # trains & Last time
+    'todo: convert map to use JSON feed with refresh
+    'todo: add option to filter by time since (1 hr, etc)
+    'todo: Filter radgrid
+    'todo: click Radgrid row center/zoom map
+    'todo: Auto Scrape
+    'todo: Direction Indicator
+    'todo: decode information from ARTC rules
+    'todo: add hairyleg's track data
+    'todo: build geofence/alerting system
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Thread.CurrentThread.CurrentCulture = New CultureInfo("en-AU")
@@ -12,6 +21,7 @@ Public Class WebForm2
 
         Dim TrainList = New List(Of String)
         Dim DetailList = New List(Of String)
+        Dim BodyList = New List(Of String)
 
         Using Conn As New SqlClient.SqlConnection(ConfigurationManager.ConnectionStrings("SQLDB").ConnectionString)
             Conn.Open()
@@ -49,6 +59,13 @@ Public Class WebForm2
                     While Reader.Read()
                         TrainList.Add("'" + Reader("Latitude").ToString + ", " + Reader("longitude").ToString + "'")
                         DetailList.Add("'<span class=formatText >" + Reader("TrainNumber").ToString.Trim + "</span>'")
+                        Dim TrainString As String = "'<B>" + Reader("TrainNumber").ToString.Trim + "</B><BR><font size=-2><B>Leading Loco</B>: " + Reader("LeadingLoco").ToString + "<BR>"
+                        TrainString = TrainString + "<B>Last Update:</B>" + Reader("MaxGPS").ToString + "<BR>"
+                        TrainString = TrainString + "<B>Line: " + Reader("LineName").ToString + " (" + Reader("LineNumber").ToString + ") - " + Reader("LineKMs").ToString + "</B><BR>"
+                        TrainString = TrainString + "<B>Location: " + Reader("Latitude").ToString + ", " + Reader("Longitude").ToString + "</B><BR>"
+                        TrainString = TrainString + "<B>Additional Details:</B><BR>"
+                        TrainString = TrainString + "</font>'"
+                        BodyList.Add(TrainString)
                     End While
                 End With
 
@@ -57,7 +74,9 @@ Public Class WebForm2
         End Using
         Dim Message As String = String.Join(",", DetailList.ToArray())
         Dim TrainValues As String = String.Join(",", TrainList.ToArray())
+        Dim BodyValues As String = String.Join(",", BodyList.ToArray())
         ClientScript.RegisterArrayDeclaration("locationList", TrainValues)
         ClientScript.RegisterArrayDeclaration("message", Message)
+        ClientScript.RegisterArrayDeclaration("BodyMsg", BodyValues)
     End Sub
 End Class
