@@ -185,8 +185,9 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <Content Include="Resources\NSW.kml" />
+    <None Include="Resources\NSW.kml" />
     <Content Include="Resources\NSW.kmz" />
+    <Content Include="Resources\Collieries.kmz" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

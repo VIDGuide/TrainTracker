@@ -12,7 +12,8 @@ Public Class WebForm2
     'todo: Auto Scrape
     'todo: Direction Indicator
     'todo: decode information from ARTC rules
-    'todo: add hairyleg's track data
+    'todo: Add QLD Tracks
+    'todo: Add Vic Tracks
     'todo: build geofence/alerting system
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load

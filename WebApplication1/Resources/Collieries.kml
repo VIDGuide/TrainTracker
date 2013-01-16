@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>NSW Collieries 2012-05-07</name>
+	<Style>
+		<ListStyle>
+			<listItemType>checkHideChildren</listItemType>
+			<bgColor>00ffffff</bgColor>
+			<maxSnippetLines>2</maxSnippetLines>
+		</ListStyle>
+	</Style>
+	<Style id="waypoint9">
+		<IconStyle>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<icon><href>root://icons/palette-3.png?x=192<![CDATA[&]]>y=96<![CDATA[&]]>w=32<![CDATA[&]]>h=32</href></icon>
+	</Style>
+	<StyleMap id="waypoint8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#waypoint9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#waypoint10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="waypoint10">
+		<IconStyle>
+			<scale>0.709091</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ylw-square-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+		<icon><href>root://icons/palette-3.png?x=192<![CDATA[&]]>y=96<![CDATA[&]]>w=32<![CDATA[&]]>h=32</href></icon>
+	</Style>
+	<Folder>
+		<name>Waypoints</name>
+		<Placemark>
+			<name>1ST NEW LAMBTON CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.716944,-32.923043,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-14T00:03:45Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>1ST NORTH BULLI CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.939837,-34.290586,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:54:18Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>A PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.776854,-32.928272,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T00:00:01Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>ABERDARE CENTRAL CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.36562,-32.879981,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:07:24Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>ABERDARE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.375225,-32.848344,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:03:52Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>ABERDARE EXTENDED CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.349994,-32.840329,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:03:31Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>ABERDARE SOUTH CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.40269,-32.89256,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T22:36:40Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>ABERMAIN NO1</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.430402,-32.812518,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T02:58:22Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>ABERMAIN NO2 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.40603,-32.860357,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:10:26Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>ADERMAIN NO3 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.412502,-32.840349,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:10:04Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>ANGUS PLACE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.096813,-33.347018,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:16:18Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>AUSTRALASIA COAL COMP CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.688834,-32.947517,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-04T22:34:20Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>AWABA STATE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.536924,-33.021842,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:37:53Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>AYRFIELD BRANXTON CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.34318,-32.67768,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:41:25Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>AYRFIELD NO1</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.510192,-32.785854,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T03:00:50Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>AYRFIELD NO2</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.5061,-32.798327,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T02:59:48Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>B PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.773893,-32.931588,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T00:00:11Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BELLBIRD CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.318483,-32.863821,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:04:47Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BELLBIRD NO2 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.316698,-32.869965,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T03:41:34Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BELMONT CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.659832,-33.042219,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:40:08Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BENGALLA COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.825027,-32.288502,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:51:45Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BLACKJACK CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.195648,-31.011463,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:50:21Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BLOOMFIELD CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.575885,-32.793005,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:13:46Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BLOOMFIELD COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.593474,-32.788267,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:05:21Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BOREHOLE 1 PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.752864,-32.927087,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-15T23:59:02Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BOREHOLE 2 PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.74616,-32.929256,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-15T23:58:30Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BOX VALE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.426347,-34.391785,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:09:12Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BROKERS NOSE MINE</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.879061,-34.365926,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:23:19Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BROOKSTOWN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.674906,-32.899403,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-14T05:35:12Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BULLI B PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.909771,-34.326133,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:55:46Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BULLI CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.906726,-34.328029,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:55:33Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BURWOOD NO3 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.717976,-32.973057,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:03:48Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>C PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.77665,-32.933311,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T00:00:26Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>CAL CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.080848,-33.376143,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:15:10Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>CAMBERWELL COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.145413,-32.490099,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:55:52Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>LYMINGTON TUNNEL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.654136,-32.959841,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-24T23:41:47Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>CESSNOCK N01 KALINGO CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.326383,-32.904324,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:06:53Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>CESSNOCK NO2 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.336837,-32.849208,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:04:24Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>149.975099,-33.035481,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:25:18Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>COMMONWEALTH CLY NO1</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.077895,-33.379607,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:14:37Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>COMMONWEALTH CLY NO2</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.080123,-33.37238,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:15:44Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>COOPERATIVE LAIDLEYS CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.668901,-32.892817,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-14T05:36:47Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>CORRIMAL CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.871795,-34.374852,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:57:21Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>CROFTON CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.698435,-32.949322,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:42:31Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>D PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.743177,-32.925402,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-15T23:58:11Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>DARTBROOK COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.896099,-32.191936,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:54:06Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>DENTON PARK CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.525457,-32.70792,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T03:22:13Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>DONALDSONS CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.74926,-32.949094,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:45:40Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>DRAYTON COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.919471,-32.335573,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:53:47Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>DUCKENFIELD NO1 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.595815,-32.865952,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:31:49Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>DUCKENFIELD NO3 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.618909,-32.880906,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:12:56Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>DUDLEY CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.719799,-32.992052,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:03:19Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>DURALIE COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.94252,-32.304464,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:03:49Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>E PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.738286,-32.926363,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-15T23:57:50Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>EAST GRETA NO1</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.522236,-32.762217,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T03:01:55Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>EAST GRETA NO2</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.522955,-32.755156,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T03:02:10Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>ELRINGTON CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.419256,-32.876405,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:09:19Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>ERITH CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.292525,-34.674643,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:06:27Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>EXCELSIOR CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.91123,-34.310758,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:55:10Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>F PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.770807,-32.935093,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-15T23:54:51Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>GLEBEMAIN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.737003,-32.94409,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:42:48Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>GLEN AYR</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.511773,-32.783203,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T03:00:51Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>GLEN GRETA</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.51256,-32.777437,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T03:01:44Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>GLENROCK OLD BURWOOD CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.73017,-32.961456,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:54:35Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>GRETA MAIN</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.436516,-32.809853,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T02:58:42Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HAMILTON H PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.747253,-32.936663,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-15T23:57:02Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HARBOUR AND RIVER DEPT QUARRY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.715763,-32.902103,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-14T05:46:30Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HARTLEY VALE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.729101,-32.928507,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-14T00:04:25Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HEBBURN NO1 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.454792,-32.819023,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:01:24Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HEBBURN NO1 CLY NO 2 TUNNEL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.446058,-32.81776,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T03:33:24Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HEBBURN NO2 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.436786,-32.85155,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:01:54Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HEDDON GRETA</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.503598,-32.804251,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T02:59:32Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HERMITAGE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.150012,-33.475913,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:12:13Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HILL END CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.365755,-32.833684,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T03:40:24Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HILLDALE</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.311027,-32.871511,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T03:03:49Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HILLSIDE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.744945,-32.943363,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:43:22Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HILLSIDE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.74793,-32.946339,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:45:56Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HOWLEYS CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.739964,-32.96082,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:00:20Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>INVINCIBLE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.029607,-33.298899,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:20:23Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>IRONDALE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.017722,-33.376943,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:17:31Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>IRONWORKS CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.453695,-34.43092,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:10:55Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>IVANHOE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.003358,-33.369684,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:18:48Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>JESMOND CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.683606,-32.907276,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-14T05:35:30Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>JOHN DARLING CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.670841,-33.025237,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:39:50Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>KEMIRA CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.828087,-34.417175,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:59:27Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>KILCOY SHAFT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.692131,-32.825601,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T03:53:26Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>KILLINGWORTH CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.5531,-32.932209,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:43:11Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>LAMBTON B CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.711059,-33.007259,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:39:38Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>LITHGOW VALLEY CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.15273,-33.487514,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:11:59Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>LITTLE ANVIL CREEK CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.380347,-32.688778,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-17T01:43:18Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>LYMINGTON CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.661008,-32.9559,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:41:33Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MAITLAND CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.529157,-32.73015,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T03:24:58Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MAITLAND MAIN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.279441,-32.885874,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:05:46Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MARHEINES CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.74919,-32.954072,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:45:13Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>METROPOLITAN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.992393,-34.187192,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:01:11Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MILLFIELD CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.275093,-32.885201,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:06:02Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MINMI NEW TUNNEL DUCKENFIELD N0 2 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.623547,-32.887767,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:17:27Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MINMI OLD DUCKENFIELDCLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.607969,-32.878273,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:27:13Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MORTON MAIN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>149.923617,-32.732711,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-17T00:51:30Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MT ARTHUR COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.894115,-32.331376,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:53:36Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MT KEMBLA CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.821601,-34.428613,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:06:33Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MT KEMBLA EXTENDED CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.868323,-34.383194,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:23:52Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MT OWEN COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.093352,-32.406304,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:55:26Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MT PLEASANT CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.862367,-34.384785,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:57:46Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MT THORLEY COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.10377,-32.633537,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:00:23Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MUSWELLBROOK COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.94022,-32.252566,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:54:40Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MYALL CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.682263,-32.951075,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T04:09:07Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>NEATH CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.407585,-32.824055,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:02:26Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>NEW SOUTH LAMBTON C PITCLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.717373,-32.943684,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:57:51Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>NEW TUNNEL ELERMORE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.684129,-32.905962,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:39:01Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>NEWSTAN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.575462,-32.980728,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:45:45Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>NORTH ILLAWARRA AUSTINMER CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.927828,-34.303506,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:52:31Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>NORTHERN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.579636,-32.95461,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:36:19Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>NORTHERN EXTENDED CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.595391,-32.966852,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:38:38Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>NORTHUMBERLAND CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.580067,-32.98006,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:37:20Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>NTH STOCKTON SHAFT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.693949,-32.832691,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T03:52:44Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>OAKEY PARK CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.191963,-33.466814,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:07:53Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>OLD LAMBTON CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.708056,-32.916969,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:42:12Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>OLD WALLSEND C-PIT CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.653349,-32.914538,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:35:49Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>OLD WARATAH CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.710346,-32.906055,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:48:24Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>OLSTAN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.565687,-32.996835,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:37:34Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>PACIFIC CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.604429,-32.967306,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:37:08Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>PELAW MAIN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.475256,-32.828762,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:00:02Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>PELTON CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.301012,-32.872204,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:05:06Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>REDHEAD BURWOOD EXTENDED OCEAN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.706474,-33.010423,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:02:38Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>RENOWN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.010327,-33.31546,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:19:58Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>RHONDDA CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.579756,-32.954606,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:17:48Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>RICHMOND MAIN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.475405,-32.859568,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:02:47Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>RINGWOOD CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.342295,-34.645082,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:06:36Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>RIXS CREEK COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.148585,-32.493333,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:56:14Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SAXONVALE COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.125673,-32.676977,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:00:52Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SEA PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.772283,-32.933556,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-15T23:54:41Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SEAHAM NO1 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.582348,-32.892926,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:05:35Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SEAHAM NO2 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.552635,-32.913714,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:06:10Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SHORTLAND CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.718815,-32.941606,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:57:39Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SNEDDONS CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.612763,-32.945456,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:18:08Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SOUTH BULLI CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.890936,-34.360433,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:56:43Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SOUTH BURWOOD CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.719801,-32.991644,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:39:27Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SOUTH CLIFTON CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.952883,-34.272525,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:53:58Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SOUTH KEMBLA CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.766941,-34.468647,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:00:24Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SOUTH WARATAH RASBERRY GULLY CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.696467,-32.953392,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:42:39Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SOUTHERN COAL CO CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.824823,-34.448686,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:06:07Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>SPRINGVALE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.106274,-33.405264,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:13:29Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>STANFORD MAIN NO2 PAXTON CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.277431,-32.905796,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:06:25Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>STANFORN MAIN NO1 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.496106,-32.820997,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:12:04Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>STATE COAL MINE</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.17068,-33.458358,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:09:37Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>STEELWORKS CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.167143,-33.46127,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:09:52Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>STH MAITLAND CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.527017,-32.735896,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T03:24:07Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>STOCKRINGTON NO1 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.593431,-32.870565,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:12:38Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>STOCKRINGTON NO2 CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.594359,-32.862858,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:13:18Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>STOCKRINGTON NO3</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.598632,-32.862905,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T03:46:38Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>STOCKTON BOREHOLE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.612738,-32.945058,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:36:36Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>STOCKTON CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.784991,-32.917806,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T03:55:42Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>STRATFORD COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.946685,-32.136396,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:04:27Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>STUARTS PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.714247,-32.937417,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T00:26:25Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>TAHMOOR COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.579264,-34.250385,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:07:33Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>THORNLIEGH CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.638804,-32.794261,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T03:47:44Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>TICKHOLE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.682801,-32.942355,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-09-27T04:08:24Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>TUNNEL CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.952789,-34.27283,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:53:33Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>TYLDESLEY CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.016349,-33.285885,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:20:54Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>ULAN COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>149.76026,-32.274978,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:52:01Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>VALE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.187437,-33.471038,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:09:13Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>VALE OF CLWYDD CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.175348,-33.478911,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:11:33Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WALLAMAINE AND NORMAINE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.660076,-33.040274,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:40:19Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WALLARAH CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.623527,-33.14288,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:16:03Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WALLERAWANG CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.062722,-33.361942,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:16:40Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WALLSEND A-PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.662719,-32.907169,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-14T05:36:12Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WALLSEND B-PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.659951,-32.9108,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-14T05:36:29Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WARATAH EAST GRIFFITH PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.703366,-32.932515,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-08-16T00:27:46Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WARATAH QUARRY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.7193,-32.907951,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:49:04Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WERRIS CREEK CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.641405,-31.385739,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:51:06Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WEST WALLSEND CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.579068,-32.901399,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:05:50Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WEST WALLSEND EXTENDED CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.551987,-32.933143,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:36:04Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WESTERN MAIN CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.057411,-33.365315,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:16:04Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WHITBURN AND LECONFIELD CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.385438,-32.675274,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T00:40:59Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WONGAWILLY CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.755114,-34.476255,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:00:01Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WOONONA MODEL CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.890831,-34.345212,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T01:56:08Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>YOUNG WALLSEND CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.613206,-32.92193,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T03:18:53Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>ZIG ZAG CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.179646,-33.46848,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-07-27T02:09:24Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>COPPER SMELTER</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.743278,-32.956239,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-11-05T23:36:57Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WAMBO COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.023675,-32.577302,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-12-19T05:35:16Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WILPINJONG COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>149.875061,-32.331176,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-12-19T05:35:31Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BOGGABRI COAL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.015137,-30.653941,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2006-12-19T05:36:39Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>DOGHOLE</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.604004,-32.859082,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2007-01-23T00:55:15Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>A PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.741909,-32.94358,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2007-04-02T01:34:31Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>OLD VICTORIA TUNNEL</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.73573,-32.944889,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2007-04-02T01:34:55Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>A PIT LONGWORTH</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.776537,-32.928049,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2007-04-05T02:56:46Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HARTLEY CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.639879,-32.794617,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2007-07-31T22:15:47Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>WOODFORD SHAFT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.639957,-32.795159,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2007-07-31T22:16:09Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>LINWOOD CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.758939,-32.917656,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2007-07-31T23:48:15Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>HETTON CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.769174,-32.91282,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2007-07-31T23:53:09Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>BAAL BONE</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>150.052398,-33.270052,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2008-07-01T05:28:50Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>B PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.750028,-32.943185,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2010-06-24T09:57:06Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>NEW LAMBTON SECOND CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.713247,-32.927226,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2010-06-24T10:35:43Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>EBBW VALE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.716412,-32.945081,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2010-06-24T10:40:20Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>MARYVILLE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.756607,-32.916445,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2010-06-24T10:41:44Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>NO2 SHAFT STH WALLSEND CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.660792,-32.947527,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2010-06-24T10:46:18Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>CARDIFF BOREHOLE CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.66045,-32.948271,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2010-06-24T10:46:37Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>CENTRAL WALLSEND CLY</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.579625,-32.929659,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2010-06-24T11:10:52Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>C PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.628802,-33.136754,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2010-06-24T11:27:38Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>A PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.633854,-33.132803,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2010-06-24T11:27:46Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+		<Placemark>
+			<name>D PIT</name>
+			<styleUrl>#waypoint8</styleUrl>
+			<Point>
+				<coordinates>151.628827,-33.153623,0</coordinates>
+			</Point>
+			<end>
+    <TimeInstant><timePosition><time>2010-06-24T11:28:14Z</time></timePosition></TimeInstant>
+    </end>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

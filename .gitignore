@@ -1,6 +1,7 @@
 Web.config
 web.config
 *.config
+*.bak
 #################
 ## Visual Studio
 #################

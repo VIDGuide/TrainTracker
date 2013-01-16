@@ -99,9 +99,9 @@ google.maps.event.addDomListener(window, "load", initialize);
 	</td></tr>
 	<tr><td class="style1" valign="top">
     <table width="200px" style="height:100%;" class="ui-layout-west"">
-    <tr><td height="100%" valign="top">
-    <label><asp:CheckBox ID="ShowTrack" runat="server" Checked="True" onclick="ToggleTrack(this.checked);" />&nbsp;Show NSW Tracks</label><br />
-    <label><asp:CheckBox ID="ShowCollieries" runat="server" Checked="True" onclick="ToggleCollieries(this.checked);" />&nbsp;Show Collieries</label>
+    <tr><td height="100%" valign="top"><B>Map Options</B>:
+    <label><asp:CheckBox ID="ShowTrack" runat="server" Checked="True" onclick="ToggleTrack(this.checked);" />&nbsp;Show NSW Tracks</label>
+    <label><asp:CheckBox ID="ShowCollieries" runat="server" Checked="True" onclick="ToggleCollieries(this.checked);" />&nbsp;Show Collieries</label><br /><br />
     </td></tr>
     <tr><td>
     <div class="sidebarFooterStats">
@@ -117,6 +117,7 @@ google.maps.event.addDomListener(window, "load", initialize);
 	<div class="sidebarFooter">
 		<button id="newb">New</button>
 		<button id="settingsb">Settings</button>
+        <font size=-3>Credits</font>
 	</div>
     </td></tr>
     </table>
