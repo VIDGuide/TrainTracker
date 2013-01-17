@@ -3351,7 +3351,6 @@ width:200px;
 @media (min-width: 778px) and (max-width: 980px) {
   .row {
     margin-left: -20px;
-    *zoom: 1;
   }
   .row:before, .row:after {
     display: table;
@@ -3435,7 +3434,6 @@ width:200px;
   }
   .row-fluid {
     width: 100%;
-    *zoom: 1;
   }
   .row-fluid:before, .row-fluid:after {
     display: table;

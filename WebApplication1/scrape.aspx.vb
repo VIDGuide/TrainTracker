@@ -1,6 +1,7 @@
 ﻿Imports HtmlAgilityPack
 Imports System.Threading
 Imports System.Globalization
+Imports System.IO
 
 
 Public Class WebForm1
@@ -22,6 +23,22 @@ Public Class WebForm1
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Thread.CurrentThread.CurrentCulture = New CultureInfo("en-AU")
         Thread.CurrentThread.CurrentUICulture = New CultureInfo("en-AU")
+        Response.Write("Purging data older than 7 days...<BR><BR>")
+        Response.Flush()
+
+        Using Conn As New SqlClient.SqlConnection(ConfigurationManager.ConnectionStrings("SQLDB").ConnectionString)
+            Conn.Open()
+            Using Command As SqlClient.SqlCommand = Conn.CreateCommand()
+                Dim SQL As String = "DELETE FROM dbo.TrainGPSData WHERE GPSDateTime < DATEADD(DAY,-7,GETDATE())"
+                With Command
+                    .CommandText = SQL
+                    .ExecuteNonQuery()
+                End With
+            End Using
+        End Using
+        Response.Write("done.<BR><BR>")
+        Response.Write("Beginning Scrape...<BR><BR>")
+        Response.Flush()
 
         Dim TrainCount As Integer = 0
         Const strURL As String = "http://waynet.artc.com.au/ctlsexternal/AllMapDisplay.asp"
@@ -74,11 +91,21 @@ Public Class WebForm1
                         End With
                     End Using
                 End Using
-                Response.Write("Scraped: " + Train.TrainNumber + " on " + Train.LineName + " (" + Train.LineNumber.ToString + ") at " + Train.Longitude.ToString + "," + Train.Latitude.ToString + "<BR>")
+                Response.Write("Scraped (" + TrainCount.ToString + "): " + Train.TrainNumber + " on " + Train.LineName + " (" + Train.LineNumber.ToString + ") at " + Train.Longitude.ToString + "," + Train.Latitude.ToString + "<BR>")
                 Response.Flush()
             Next
         End If
         Response.Write(TrainCount.ToString)
+        Using Conn As New SqlClient.SqlConnection(ConfigurationManager.ConnectionStrings("SQLDB").ConnectionString)
+            Conn.Open()
+            Using Command As SqlClient.SqlCommand = Conn.CreateCommand()
+                With Command
+                    Dim SQL As String = "INSERT INTO AccessRecords (IP, Page) VALUES ('" + HttpContext.Current.Request.UserHostAddress + "', '" + Path.GetFileName(Request.PhysicalPath) + "')"
+                    .CommandText = SQL
+                    .ExecuteNonQuery()
+                End With
+            End Using
+        End Using
     End Sub
 
     Private Function CleanString(Input As String) As String

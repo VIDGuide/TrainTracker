@@ -50,7 +50,7 @@ function initialize() {
     };
 
     map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
-
+    setTimeout('google.maps.event.trigger(map, "resize");map.setZoom(map.getZoom());', 200);
     for (var i = 0; i < locationList.length; i++) {
         var args = locationList[i].split(",");
         var location = new google.maps.LatLng(args[0], args[1])
@@ -95,7 +95,7 @@ google.maps.event.addDomListener(window, "load", initialize);
 </head>
 <body runat="server">
 <form id="form1" runat="server">
-	<table style="width:100%;height:100%" cellpadding=0 cellspacing=0>
+	<table style="width:100%;height:100%" cellpadding="0" cellspacing="0">
 	<tr style="height:42px;"><td colspan="2">
 	 <div class="ui-layout-north topbar">
 		<h1><img src="Images/train.png" alt="Clarity" />Train Tracker</h1>
@@ -104,7 +104,7 @@ google.maps.event.addDomListener(window, "load", initialize);
 	</td></tr>
 	<tr><td class="style1" valign="top">
     <table width="200px" style="height:100%;" class="ui-layout-west"">
-    <tr><td height="100%" valign="top"><B>Map Options</B>:
+    <tr><td height="100%" valign="top"><b>Map Options</b>:
     <label><asp:CheckBox ID="ShowTrack" runat="server" Checked="True" onclick="ToggleTrack(this.checked);" />&nbsp;Show NSW Tracks</label>
     <label><asp:CheckBox ID="ShowCollieries" runat="server" Checked="False" onclick="ToggleCollieries(this.checked);" />&nbsp;Show Collieries</label><br /><br />
     Show Trains From:

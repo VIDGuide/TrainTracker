@@ -1,5 +1,6 @@
 ﻿Imports System.Threading
 Imports System.Globalization
+Imports System.IO
 
 Public Class WebForm2
 
@@ -15,7 +16,10 @@ Public Class WebForm2
     'todo: decode information from ARTC rules
     'todo: Add QLD Tracks
     'todo: Add Vic Tracks
+    'todo: Clean up Colleries data
+    'todo: Fix IE compatability
     'todo: build geofence/alerting system
+    'todo: Add additional layer for coal loading/unloading facilities
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Thread.CurrentThread.CurrentCulture = New CultureInfo("en-AU")
@@ -84,5 +88,17 @@ Public Class WebForm2
         ClientScript.RegisterArrayDeclaration("locationList", TrainValues)
         ClientScript.RegisterArrayDeclaration("message", Message)
         ClientScript.RegisterArrayDeclaration("BodyMsg", BodyValues)
+        Using Conn As New SqlClient.SqlConnection(ConfigurationManager.ConnectionStrings("SQLDB").ConnectionString)
+            Conn.Open()
+            Using Command As SqlClient.SqlCommand = Conn.CreateCommand()
+                With Command
+                    Dim SQL As String = "INSERT INTO AccessRecords (IP, Page) VALUES ('" + HttpContext.Current.Request.UserHostAddress + "', '" + Path.GetFileName(Request.PhysicalPath) + "')"
+                    .CommandText = SQL
+                    .ExecuteNonQuery()
+                End With
+            End Using
+        End Using
+
+
     End Sub
 End Class
