@@ -2,7 +2,8 @@
 <html>
 <!DOCTYPE html>
 <head runat="server">
-    <title></title>
+    <title>TrainTracker</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=9">
     <link rel="stylesheet" href="Styles/bootstrap.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="Styles/core.css" type="text/css" media="all"/>
     <link rel="stylesheet" href="Styles/site.css" type="text/css" media="all"/>
@@ -64,12 +65,14 @@ function initialize() {
         attachSecretMessage(marker, i);
     }
 
+}
+
+function SetUpLayers() {
     TrackLayer = new google.maps.KmlLayer('http://traintracker.apphb.com/Resources/NSW.kmz');
     TrackLayer.setMap(map);
 
     Collieries = new google.maps.KmlLayer('http://traintracker.apphb.com/Resources/Collieries.kmz');
     //Collieries.setMap(map);
-
 }
 
 function attachSecretMessage(marker, number) {
@@ -81,10 +84,12 @@ function attachSecretMessage(marker, number) {
         infowindow.open(map, marker);
     });
 }
-google.maps.event.addDomListener(window, "load", initialize);
 
-
-
+$(document).ready(function () {
+    initialize();
+    SetUpLayers();
+}
+);
 </script>
     <style type="text/css">
         .style1
